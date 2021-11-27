@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/nav_cart"
+            android:title="Cart"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Chat With Us"
+            android:iconTint="@android:color/white"/>
+
+<!--        <item-->
+<!--            android:id="@+id/nav_search_img"-->
+<!--            android:icon="@drawable/orders"-->
+<!--            android:title="Search using an image"-->
+<!--            android:iconTint="@android:color/white"/>-->
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="User profile"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_check"
+            android:icon="@drawable/category"
+            android:title="Nearest branch"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"
+            android:iconTint="@android:color/white"/>
+    </group>
+</menu>
